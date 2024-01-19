@@ -53,32 +53,32 @@ class Solution {
     }
 };
 
-// //{ Driver Code Starts.
+//{ Driver Code Starts.
 
-// int main() {
+int main() {
 
-//     int t;
-//     cin >> t;
-//     while (t--) {
-//         int V, E;
-//         cin >> V >> E;
+    int t;
+    cin >> t;
+    while (t--) {
+        int V, E;
+        cin >> V >> E;
 
-//         vector<int> adj[V];
+        vector<int> adj[V];
 
-//         for (int i = 0; i < E; i++) {
-//             int u, v;
-//             cin >> u >> v;
-//             adj[u].push_back(v);
-//         }
+        for (int i = 0; i < E; i++) {
+            int u, v;
+            cin >> u >> v;
+            adj[u].push_back(v);
+        }
 
-//         Solution obj;
-//         cout << obj.isCyclic(V, adj) << "\n";
-//     }
+        Solution obj;
+        cout << obj.isCyclic(V, adj) << "\n";
+    }
 
-//     return 0;
-// }
+    return 0;
+}
 
-// // } Driver Code Ends
+// } Driver Code Ends
 
 
 
